@@ -7,7 +7,7 @@ const Landing = () => {
       <div className="mt-2">
         <div className="grid grid-cols-2 gap-4 md:grid-cols-2 p-10">
           <div>
-            <img src={"/src/assets/chessboard.jpeg"} />
+            <img src={"/frontend/public/chessboard.jpeg"} />
           </div>
           <div className="flex flex-col justify-center text-center gap-5">
             <h1 className="text-3xl font-bold text-white">
