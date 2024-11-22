@@ -52,7 +52,7 @@ const ChessBoard = ({
               return (
                 <div onClick={()=>{handleSquareClick(squareRepresentation)}} key={j} className={`w-16 h-16 ${(i+j)%2 == 0? 'bg-slate-600':'bg-white'}`}>
                     <div className="flex h-full w-full justify-center items-center text-slate-900">
-                        {square ? <img className="w-10" src={`/frontend/public/pieces/${square?.color === 'b'? `black/${square?.type}` : `white/${square?.type?.toUpperCase()}`}.png`}/>:null}
+                        {square ? <img className="w-10" src={`/pieces/${square?.color === 'b'? `black/${square?.type}` : `white/${square?.type?.toUpperCase()}`}.png`}/>:null}
                     </div>
                 </div>
               );
